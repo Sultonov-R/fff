@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.wrapper {
+  margin: 100px auto;
+  width: 800px;
+  background-color:#fff;
+  box-shadow: 4px 3px 7px lightblue;
+  padding: 38px;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+
+}
+
+.wrapper h1 {
+  margin-bottom: 16px;
+}
+
+.wrapper p {
+  margin-bottom: 32px;
+}
+
+.wrapper .dropdowns {
+  display: flex;
+  justify-content: space-between;
+}
+
+form .checker {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-between;
+}
